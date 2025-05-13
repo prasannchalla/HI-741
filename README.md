@@ -55,8 +55,20 @@ cd clinical_data_warehouse
 python src/main.py
 ```
 
+# Program Description
+The Clinical Data Warehouse UI Project is a Python-based application designed to provide a user-friendly interface for managing clinical data in a healthcare setting. The main features of the program include the ability to:
 
+Add, retrieve, and remove patient information: Users can manage patient data, including personal details and clinical information.
 
+View and manage clinical notes: Clinicians can add, update, or view clinical notes associated with a patient’s visits.
+
+Track patient visits: The program allows users to count and monitor patient visits over time.
+
+Generate key statistics: The system offers statistical summaries and visualizations to help healthcare professionals analyze patient data.
+
+Role-based access control: The program supports multiple user roles (e.g., admin, clinician, nurse, management), with each role having different permissions for performing specific tasks.
+
+This program uses Tkinter for building the graphical user interface (GUI), Pandas for data manipulation, and Matplotlib for generating charts and statistical visualizations. It is structured to handle clinical data in an organized way, ensuring that users can interact with the system efficiently while maintaining privacy and security through role-based access.
 
 
 
